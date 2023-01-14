@@ -114,6 +114,32 @@
     color: #737272;
 }
 
+/* Success achievement section style */
+.success-container {
+    margin-top: 130px;
+}
+.success-container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.success {
+    background: url('../images/banner/success.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.success h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+
 /* contact section styles */
 .contact-now {
     background: url('../images/gradient2.png'), url('../images/watch.png');
