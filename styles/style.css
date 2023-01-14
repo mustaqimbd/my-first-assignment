@@ -2,11 +2,13 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* header section styles */
 .header {
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
 }
+
 .header-container {
     padding: 215px 130px 160px 0px;
 }
@@ -19,6 +21,7 @@
     width: 525px;
     margin-left: auto;
 }
+
 .header-text {
     color: #444343;
     text-align: right;
@@ -27,6 +30,7 @@
     margin-top: 24px;
     margin-bottom: 30px;
 }
+
 .header-btn {
     color: #FFFFFF;
     font-size: 20px;
@@ -38,33 +42,40 @@
     margin-left: auto;
     display: block;
 }
+
 /*My failures of previous year section's styles */
 .container {
-    padding: 0px 130px ;
+    padding: 0px 130px;
 }
+
 .content-container {
     display: flex;
     margin-top: 120px;
     gap: 80px;
 }
+
 .failure-description {
     padding: 100px 0px;
 }
+
 .failure-description h1 {
     font-size: 40px;
     font-weight: 700px;
     color: #151414;
     margin: 80px 0px 25px 0px;
 }
+
 .failure-description p {
     color: #444343;
     margin-bottom: 16px;
 }
+
 .failure-description ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .failure-description li {
     color: #444343;
     margin-bottom: 8px;
@@ -74,27 +85,59 @@
     color: #16D887;
     margin-right: 10px;
 }
+
 /* My plans section styles */
 .plans-container {
     display: flex;
     text-align: center;
     gap: 80px;
 }
+
 .plans-title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    color:  #151414;
+    color: #151414;
     margin-bottom: 50px;
 }
+
 .plans-container h2 {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
     margin: 30px 0px 16px 0px;
 }
+
 .plans-container p {
     font-size: 25px;
     font-weight: 500;
     color: #737272;
 }
+
+/* contact section styles */
+.contact-now {
+    background: url('../images/gradient2.png'), url('../images/watch.png');
+    padding: 64px;
+    background-repeat: no-repeat;
+    margin: 130px 0px;
+    background-size: contain;
+}
+
+.contact-now h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    margin-bottom: 27px;
+}
+
+.call-btn {
+    font-size: 20px; 
+    font-weight: 600;
+    color: #F15B22;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
