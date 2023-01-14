@@ -38,3 +38,39 @@
     margin-left: auto;
     display: block;
 }
+/*My failures of previous year section's styles */
+.container {
+    padding: 0px 130px ;
+}
+.content-container {
+    display: flex;
+    padding: 120px 0px;
+    gap: 80px;
+}
+.failure-description {
+    padding: 100px 0px;
+}
+.failure-description h1 {
+    font-size: 40px;
+    font-weight: 700px;
+    color: #151414;
+    margin: 80px 0px 25px 0px;
+}
+.failure-description p {
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure-description ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.failure-description li {
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failure-description i {
+    color: #16D887;
+    margin-right: 10px;
+}
