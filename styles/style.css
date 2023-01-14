@@ -131,7 +131,7 @@
     margin-bottom: 27px;
 }
 
-.call-btn {
+.btn-primary {
     font-size: 20px; 
     font-weight: 600;
     color: #F15B22;
@@ -141,3 +141,41 @@
     border: none;
 }
 
+/* Footer style */
+footer {
+    background: #151414;
+}
+.footer-container {
+    display: flex;
+    padding: 130px 0px;
+    gap: 330px;
+}
+.footer-container h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-container p {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+.footer-container a {
+    margin-right: 18px;
+}
+.footer-container h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-container input[type="email"] {
+    font-size: 18px;
+    color: #F3F3F3;
+    padding: 20px;
+    border-radius: 5px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 16px;
+}
